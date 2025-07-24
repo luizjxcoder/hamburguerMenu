@@ -1,0 +1,174 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #111;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #f0a500;
+}
+
+/* Product Display Section */
+.product-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+}
+
+.main-image img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 00px 20px rgba(0, 0, 0, 02);
+}
+
+.product-details {
+    max-width: 400px;
+}
+
+.product-details h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-details p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.product-details h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f0a500;
+    margin-bottom: 20px;
+}
+
+.order-now {
+    background-color: #f0a500;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-now:hover {
+    background-color: #e89e00;
+}
+
+/* Other Products Section */
+.other-products {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.other-products h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.product-card {
+    display: inline-block;
+    width: 170px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card img {
+    /*position: absolute; /* Posiciona a imagem absolutamente em relação ao card */
+    top: -40px; /* Ajuste para mover a imagem para cima */
+    /* Você pode ajustar o 'left' ou usar 'transform: translateX(-50%); left: 50%;' para centralizar */
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+    width: 120px; /* Tamanho da imagem */
+    height: 120px; /* Tamanho da imagem */
+    border-radius: 50%; /* Torna a imagem circular */
+    /*overflow: hidden; /* Corta a imagem para caber na forma circular */
+    border: 5px solid #fff; /* Borda branca ao redor da imagem */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra para a imagem */
+    z-index: 2; /* Garante que a imagem fique sobre o card */
+}
+
+.product-card p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #111;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.marca p{
+        color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 12px;
+
+}
+
+.social-icons a:hover {
+    color: #f0a500;
+}
