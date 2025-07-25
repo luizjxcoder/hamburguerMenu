@@ -5,7 +5,7 @@
 
   ### 🧑‍💻: TECNOLOGIAS USADAS NO PROJETO:
 
-    <p>### : OBRIGADO POR CHEGAR ATÉ AQUI</p>
+### : OBRIGADO POR CHEGAR ATÉ AQUI
 </div>
 
 
