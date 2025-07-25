@@ -5,4 +5,5 @@
 
   ### :atom: TECNOLOGIAS USADAS NO PROJETO:
 </div>
+### : OBRIGADO POR CHEGAR ATÉ AQUI!
 
