@@ -4,6 +4,8 @@
   <img src="https://github.com/luizjxcoder/hamburguerMenu/raw/main/assets/gourmet salad.png" alt="Imagem do projeto"/>
 
   ### 🧑‍💻: TECNOLOGIAS USADAS NO PROJETO:
+
+    <p>### 🧑‍💻: TECNOLOGIAS USADAS NO PROJETO:</p>
 </div>
-  <p>### 🧑‍💻: TECNOLOGIAS USADAS NO PROJETO:</p>
+
 
